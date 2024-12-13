@@ -87,7 +87,7 @@ nav {
     display: none;
 }
 
-#nav-toggle-label {
+.nav-toggle-label {
     font-size: 2rem;
 }
 
@@ -96,6 +96,7 @@ main {
     background-color: lightblue;
     /*make main element take up any surplus space to push footer to bottom of page */
     flex: 1 0 auto;
+    margin-top: 47px;
 
 }
 
