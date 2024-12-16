@@ -20,7 +20,9 @@ body {
 
 }
 
-h1, h2, h3 {
+h1, 
+h2, 
+h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -57,7 +59,7 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 
 }
@@ -123,7 +125,8 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2, 
+#cover-text>h3 {
     color: #ffffff;
 }
 
@@ -131,24 +134,20 @@ main {
 
 #reasons {
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20%;
-    margin-bottom: 20%;
+    margin: 20px auto;
 }
 
 #reasons h2 {
-    font-size: 280%;
-    margin-bottom: 20%;
+    margin-bottom: 20px;
     text-align: center;
-
+    font-size: 280%;
 
 }
 
 /*Styling all child divs of #benefits */
 
-#benefits-mental > div, 
-#benefits-physical > div {
+#benefits-physical>div, 
+#benefits-mental>div {
     line-height: 20px;
     margin-bottom: 20px;
 
@@ -164,7 +163,7 @@ main {
 }
 
 #circle-cover-bg {
-    background: url("../images/reasons-image.webp") no-repeat top center / cover;
+    background: url('../images/reasons-image.webp') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -217,7 +216,7 @@ main {
 
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem; 
     }
 
@@ -244,14 +243,14 @@ main {
     }
 
     /* reasons section */
-    #benefits-mental,
-    #benefits-physical {
+    #benefits-physical,
+    #benefits-mental {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-    #benefits-mental > div,
-    #benefits-physical > div {
+    #benefits-physical > div,
+    #benefits-mental > div {
         width: 75%;
     }
 
@@ -264,7 +263,7 @@ main {
 /* media query for laptop screens 992px or larger */
 
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 
