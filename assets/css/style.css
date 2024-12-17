@@ -1,5 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by browser */
 * {
     padding: 0;
@@ -20,14 +21,14 @@ body {
 
 }
 
-h1, 
-h2, 
+h1,
+h2,
 h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
-    
+
 }
 
 .hidden-heading {
@@ -129,7 +130,7 @@ main {
     padding-left: 10px;
 }
 
-#cover-text>h2, 
+#cover-text>h2,
 #cover-text>h3 {
     color: #ffffff;
 }
@@ -150,7 +151,7 @@ main {
 
 /*Styling all child divs of #benefits */
 
-#benefits-physical>div, 
+#benefits-physical>div,
 #benefits-mental>div {
     line-height: 20px;
     margin-bottom: 20px;
@@ -175,7 +176,7 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
-    
+
 }
 
 #benefits-image {
@@ -183,6 +184,7 @@ main {
     align-items: center;
     justify-content: center;
 }
+
 /* meetup times section */
 
 #times {
@@ -217,14 +219,14 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    
+
 }
 
 #social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
-    
+
 }
 
 
@@ -232,6 +234,7 @@ main {
 
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /*header*/
     nav {
         display: block;
@@ -247,11 +250,11 @@ main {
     }
 
     #menu>li {
-        padding-left: 1rem; 
+        padding-left: 1rem;
     }
 
     .nav-toggle-label {
-       display: none; 
+        display: none;
     }
 
     #logo {
@@ -279,12 +282,13 @@ main {
         flex-direction: column;
         width: 100%;
     }
-    #benefits-physical > div,
-    #benefits-mental > div {
+
+    #benefits-physical>div,
+    #benefits-mental>div {
         width: 75%;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         text-align: end;
         align-self: flex-end;
     }
@@ -304,10 +308,10 @@ main {
     #benefits {
         display: flex;
         flex-direction: row;
-        
+
     }
 
-    #benefits > div {
+    #benefits>div {
         flex: 1;
     }
 
@@ -319,11 +323,11 @@ main {
         order: 1;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         align-self: flex-start;
     }
 
-    #benefits-physical > div {
+    #benefits-physical>div {
         align-self: flex-end;
     }
 }
